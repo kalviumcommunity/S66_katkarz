@@ -1,0 +1,20 @@
+{
+  "name": "s66_katkarz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalviumcommunity/S66_katkarz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalviumcommunity/S66_katkarz/issues"
+  },
+  "homepage": "https://github.com/kalviumcommunity/S66_katkarz#readme",
+  "description": ""
+}
