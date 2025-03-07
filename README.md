@@ -33,3 +33,6 @@ Backend:
 
 ## Deployed Link
 [Live App](https://asaprocky.onrender.com)
+
+## Live Deployment
+[View the Live Site](https://your-cloudflare-project-url.pages.dev)
