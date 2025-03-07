@@ -1,9 +1,14 @@
 require("dotenv").config(); // Load environment variables
 const express = require("express");
 const mongoose = require("mongoose");
+const routes = require("./routes");
 
 const app = express();
 const port = process.env.PORT || 3000;
+const mongoURI = process.env.MONGO_URI;
+
+app.use(express.json());
+app.use("/api", routes);
 
 // Connect to MongoDB
 mongoose
@@ -26,3 +31,6 @@ app.get("/ping", (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
+
+
+
