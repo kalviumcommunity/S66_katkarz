@@ -1,5 +1,5 @@
 import React from "react";
-import CatCar from "./components/CatCar";
+import CatCar from "./components/CatCar.jsx"; // Ensure this file is CatCar.jsx
 
 function App() {
   const dummyCar = {
@@ -15,7 +15,7 @@ function App() {
       <p className="text-lg text-gray-700 my-4">
         Design custom cat-mobiles and explore a whimsical world of feline-inspired cars!
       </p>
-      
+
       {/* Render the CatCar component */}
       <div className="flex justify-center">
         <CatCar {...dummyCar} />
